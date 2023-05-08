@@ -2,7 +2,8 @@
 
 const KEYS_LIST = {
 	"-s": "s",
-	"-h": "h"
+	"-h": "h",
+	"-t": "t"
 }
 
 const entryCheck = item => Object.keys(KEYS_LIST).includes(item);
