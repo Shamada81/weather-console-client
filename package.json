@@ -2,22 +2,31 @@
   "name": "wether-console-client",
   "version": "1.0.0",
   "description": "Client for the getting console weather forecast",
-  "main": "index.js",
+  "main": "weather.js",
+  "bin": {
+    "weather": "weather.js"
+  },
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Shamada81/wether-console-client.git"
+    "url": "git+https://github.com/Shamada81/weather-console-client.git"
   },
   "keywords": [
-    "wether",
+    "weather",
     "cli"
   ],
   "author": "Vladimir Levadny",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Shamada81/wether-console-client/issues"
+    "url": "https://github.com/Shamada81/weather-console-client/issues"
   },
-  "homepage": "https://github.com/Shamada81/wether-console-client#readme"
+  "homepage": "https://github.com/Shamada81/weather-console-client#readme",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "chalk": "^5.2.0",
+    "dedent-js": "^1.0.1"
+  }
 }
