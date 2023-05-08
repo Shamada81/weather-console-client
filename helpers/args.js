@@ -1,5 +1,3 @@
-
-
 const KEYS_LIST = {
 	"-s": "s",
 	"-h": "h",
